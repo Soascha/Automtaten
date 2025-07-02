@@ -10,16 +10,16 @@ public class Token {
 
     }
 
-    public void getWert(String pWert){
-
+    public String getWert(){
+        return wert;
     }
 
     public void setTyp(String pTYp){
 
     }
 
-    public void getTyp(String pTyp){
-
+    public String getTyp(){
+        return typ;
     }
 
 }

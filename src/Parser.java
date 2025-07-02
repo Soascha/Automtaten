@@ -2,7 +2,7 @@ public class Parser {
 
     private boolean fehler = true;
 
-    public Parser(utils.List<Token> pTokenliste){
+    public Parser(){
 
         public Token nextToken(){
             return;

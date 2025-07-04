@@ -1,9 +1,10 @@
 public class Token {
-    private String wert = new String();
-    private String typ = new String();
+    private String wert;
+    private String typ;
 
     public Token(String pWert, String pTyp){
-
+        wert="";
+        typ="";
     }
 
     public void setWert(String pWert){

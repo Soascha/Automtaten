@@ -4,25 +4,23 @@ public class Parser {
 
     public Parser(){
 
-        public Token nextToken(){
-            return;
-        }
-        public boolean parse(){
+    }
+    public Token nextToken(){
+        return Token;
+    }
+    public boolean parse(){
+        return true;
+    }
 
-        }
+    public boolean pruefeS(){
+        return true;
+    }
 
-        public boolean pruefeS(){
-
-        }
-
-        public boolean pruefeA(){
-
-        }
-
-        public boolean pruefeb(){
-
-        }
+    public boolean pruefeA(){
 
     }
 
+    public boolean pruefeb(){
+
+    }
 }

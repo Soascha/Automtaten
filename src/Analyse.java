@@ -1,14 +1,21 @@
-  public class Analyse {
+import utils.List;
 
-    private String eingabe = new String();
-    private Parser parser = new Parser();
-    private Scanner scanner = new Scanner();
-    private utils.List tokenliste = new utils.List();
+import java.util.Scanner;
+
+public class Analyse {
+
+    private String eingabe;
+    private Parser parser;
+    private Scanner scanner;
+    private List<Token> tokenliste;
 
     public Analyse(String pEingabe){
-
-        public void analysiere() {
-
-        }
+        eingabe = pEingabe;
+        parser = new Parser();
+        scanner = new Scanner();
+        tokenliste = new List<Token>();
     }
+      public void analysiere(){
+
+      }
 }

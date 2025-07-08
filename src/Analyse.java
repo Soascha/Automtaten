@@ -12,10 +12,14 @@ public class Analyse {
     public Analyse(String pEingabe){
         eingabe = pEingabe;
         parser = new Parser();
-        scanner = new Scanner();
         tokenliste = new List<Token>();
+        scanner = new Scanner(pEingabe, tokenliste);
     }
-      public void analysiere(){
+    public void analysiere(){
+        scanner.scanne();
+        if(tokenliste.hasAccess()){
 
-      }
+        }
+
+    }
 }
